@@ -1,7 +1,7 @@
 {
 “name”: “tiktok-studio-server”,
 “version”: “1.0.0”,
-“description”: “Servidor backend para TikTok AI Studio - Resolve CORS”,
+“description”: “Servidor backend para TikTok AI Studio”,
 “main”: “servidor-tiktok.js”,
 “scripts”: {
 “start”: “node servidor-tiktok.js”
@@ -11,7 +11,7 @@
 “cors”: “^2.8.5”,
 “node-fetch”: “^2.7.0”
 },
-“keywords”: [“tiktok”, “ai”, “gemini”, “leonardo”],
-“author”: “”,
-“license”: “MIT”
+“engines”: {
+“node”: “>=14.0.0”
+}
 }
